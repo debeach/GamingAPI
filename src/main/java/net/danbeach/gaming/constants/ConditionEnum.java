@@ -20,6 +20,7 @@ public enum ConditionEnum {
     RUSTED("Rusted", 0.10),
     POOR("Poor", 0.30),
     DAMAGED("Damaged", 0.60),
+    FAIR("Fair", 0.80),
     GOOD("Good", 1.00),
     EXCELLENT("Excellent", 1.30),
     SUPERIOR("Superior", 1.60),

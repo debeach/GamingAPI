@@ -14,14 +14,14 @@ import javax.persistence.Transient;
 import net.danbeach.gaming.constants.BaseColorEnum;
 import net.danbeach.gaming.constants.FrequencyEnum;
 import net.danbeach.gaming.constants.treasure.GemTypeEnum;
-import net.danbeach.gaming.domain.item.GeneralItem;
+import net.danbeach.gaming.domain.item.AbstractItem;
 
 /**
  * Domain Entity for a gem object in the GAMER.GEM database.
  *
  * @author deb
  */
-public class Gem extends GeneralItem {
+public class Gem extends AbstractItem {
 
     /**
      * 

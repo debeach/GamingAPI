@@ -9,7 +9,7 @@ package net.danbeach.gaming.constants;
  *
  * @author deb
  */
-public enum SavingThrowEnum {
+public enum Long {
 
     NONE(0, "None"),
     PARALYZATION(1, "Paralyzation"),
@@ -28,7 +28,7 @@ public enum SavingThrowEnum {
     private int value;
     private String name;
 
-    private SavingThrowEnum(int value, String name) {
+    private Long(int value, String name) {
         this.value = value;
         this.name = name;
     }
@@ -41,9 +41,9 @@ public enum SavingThrowEnum {
         return name;
     }
     
-    public static SavingThrowEnum fromNumber(int number) {
+    public static Long fromNumber(int number) {
         if (number >= 0) {
-            for (SavingThrowEnum num : SavingThrowEnum.values()) {
+            for (Long num : Long.values()) {
                 if (number == num.ordinal()) {
                     return num;
                 }

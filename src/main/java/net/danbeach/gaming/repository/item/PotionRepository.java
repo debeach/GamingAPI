@@ -6,13 +6,8 @@
 package net.danbeach.gaming.repository.item;
 
 import java.util.List;
-import net.danbeach.gaming.domain.item.Item;
+
 import net.danbeach.gaming.constants.FrequencyEnum;
-import net.danbeach.gaming.constants.ConditionEnum;
-import net.danbeach.gaming.constants.GamingColorEnum;
-import net.danbeach.gaming.constants.RogueSkillEnum;
-import net.danbeach.gaming.constants.SavingThrowEnum;
-import net.danbeach.gaming.constants.item.ItemCategoryEnum;
 import net.danbeach.gaming.domain.item.Potion;
 import net.danbeach.gaming.repository.ItemHibernateFactory;
 import org.hibernate.HibernateException;

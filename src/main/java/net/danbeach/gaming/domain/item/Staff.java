@@ -15,7 +15,7 @@ import javax.persistence.Table;
 import net.danbeach.gaming.constants.FrequencyEnum;
 import net.danbeach.gaming.constants.LibraryEnum;
 import net.danbeach.gaming.constants.RogueSkillEnum;
-import net.danbeach.gaming.constants.SavingThrowEnum;
+import net.danbeach.gaming.constants.Long;
 import net.danbeach.gaming.constants.toon.CharacterClassEnum;
 
 /**
@@ -73,7 +73,7 @@ public class Staff {
     private Boolean savingThrow;
 
     @Column(name = "saving_throw_category")
-    private SavingThrowEnum savingThrowCategory;
+    private Long savingThrowCategory;
 
     @Column(name = "volume")
     private Double volume;
@@ -95,7 +95,7 @@ public class Staff {
         rogueSkill = false;
         rogueSkillCategory = RogueSkillEnum.NONE;
         savingThrow = false;
-        savingThrowCategory = SavingThrowEnum.NONE;
+        savingThrowCategory = Long.NONE;
         volume = 0.0;
         weight = 1.0;
     }
@@ -232,11 +232,11 @@ public class Staff {
         this.savingThrow = savingThrow;
     }
 
-    public SavingThrowEnum getSavingThrowCategory() {
+    public Long getSavingThrowCategory() {
         return savingThrowCategory;
     }
 
-    public void setSavingThrowCategory(SavingThrowEnum savingThrowCategory) {
+    public void setSavingThrowCategory(Long savingThrowCategory) {
         this.savingThrowCategory = savingThrowCategory;
     }
 

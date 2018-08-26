@@ -178,9 +178,9 @@ public class ArmorRepository {
 //         armor.setRogueSkill(false);
 //         armor.setRogueSkillCategory(0);
 //         armor.setSavingThrow(false);
-//         armor.setSavingThrowCategory(0);
+//         armor.setSavingThrowId(0);
 //         armor.setStackable(false);
-//         armor.setValueOf(15.0);
+//         armor.setBaseValue(15.0);
 //         armor.setVolume(0.0);
         armor.setWeight(5.0);
         armor.setDefenseValue(2);

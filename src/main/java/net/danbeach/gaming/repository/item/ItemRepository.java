@@ -11,7 +11,7 @@ import net.danbeach.gaming.constants.FrequencyEnum;
 import net.danbeach.gaming.constants.ConditionEnum;
 import net.danbeach.gaming.constants.GamingColorEnum;
 import net.danbeach.gaming.constants.RogueSkillEnum;
-import net.danbeach.gaming.constants.SavingThrowEnum;
+import net.danbeach.gaming.constants.Long;
 import net.danbeach.gaming.constants.item.ItemCategoryEnum;
 import net.danbeach.gaming.repository.ItemHibernateFactory;
 import org.hibernate.HibernateException;
@@ -361,9 +361,9 @@ public class ItemRepository {
         testItem.setRogueSkill(false);
         testItem.setRogueSkillCategory(RogueSkillEnum.ALL);
         testItem.setSavingThrow(true);
-        testItem.setSavingThrowCategory(SavingThrowEnum.ALL);
+        testItem.setSavingThrowId(Long.ALL);
         testItem.setStackable(true);
-        testItem.setValueOf(3.2);
+        testItem.setBaseValue(3.2);
         testItem.setVolume(2.2);
         testItem.setWeight(13.2);
 
@@ -392,9 +392,9 @@ public class ItemRepository {
                     System.out.println("Rogue Skill: " + items.isRogueSkill());
                     System.out.println("Rogue Skill Category: " + items.getRogueSkillCategory());
                     System.out.println("Saving Throw: " + items.isSavingThrow());
-                    System.out.println("Saving Throw Category: " + items.getSavingThrowCategory());
+                    System.out.println("Saving Throw Category: " + items.getSavingThrowId());
                     System.out.println("Stackable: " + items.isStackable());
-                    System.out.println("Value of: " + items.getValueOf());
+                    System.out.println("Value of: " + items.getBaseValue());
                     System.out.println("Volume: " + items.getVolume());
                     System.out.println("Weight: " + items.getWeight());
                 }
@@ -416,9 +416,9 @@ public class ItemRepository {
                     System.out.println("Rogue Skill: " + items.isRogueSkill());
                     System.out.println("Rogue Skill Category: " + items.getRogueSkillCategory());
                     System.out.println("Saving Throw: " + items.isSavingThrow());
-                    System.out.println("Saving Throw Category: " + items.getSavingThrowCategory());
+                    System.out.println("Saving Throw Category: " + items.getSavingThrowId());
                     System.out.println("Stackable: " + items.isStackable());
-                    System.out.println("Value of: " + items.getValueOf());
+                    System.out.println("Value of: " + items.getBaseValue());
                     System.out.println("Volume: " + items.getVolume());
                     System.out.println("Weight: " + items.getWeight());
                 }
@@ -441,9 +441,9 @@ public class ItemRepository {
                     System.out.println("Rogue Skill: " + items.isRogueSkill());
                     System.out.println("Rogue Skill Category: " + items.getRogueSkillCategory());
                     System.out.println("Saving Throw: " + items.isSavingThrow());
-                    System.out.println("Saving Throw Category: " + items.getSavingThrowCategory());
+                    System.out.println("Saving Throw Category: " + items.getSavingThrowId());
                     System.out.println("Stackable: " + items.isStackable());
-                    System.out.println("Value of: " + items.getValueOf());
+                    System.out.println("Value of: " + items.getBaseValue());
                     System.out.println("Volume: " + items.getVolume());
                     System.out.println("Weight: " + items.getWeight());
                 }
@@ -466,9 +466,9 @@ public class ItemRepository {
                 System.out.println("Rogue Skill: " + item.isRogueSkill());
                 System.out.println("Rogue Skill Category: " + item.getRogueSkillCategory());
                 System.out.println("Saving Throw: " + item.isSavingThrow());
-                System.out.println("Saving Throw Category: " + item.getSavingThrowCategory());
+                System.out.println("Saving Throw Category: " + item.getSavingThrowId());
                 System.out.println("Stackable: " + item.isStackable());
-                System.out.println("Value of: " + item.getValueOf());
+                System.out.println("Value of: " + item.getBaseValue());
                 System.out.println("Volume: " + item.getVolume());
                 System.out.println("Weight: " + item.getWeight());
             }

@@ -125,7 +125,7 @@ public class TreasureController {
             for(int index = 0; index < gems.size(); index++){
                 System.out.print("\t" + (index + 1) + ": ");
 //                System.out.print(gems.get(index).getName() + " ");
-//                System.out.print(gems.get(index).getValueOf() + " ");
+//                System.out.print(gems.get(index).getBaseValue() + " ");
                 System.out.println(gems.get(index).getBaseTypeName());
             }// end for
         }// end if/else
@@ -143,7 +143,7 @@ public class TreasureController {
             for(int index = 0; index < jewelry.size(); index++){
                 System.out.print("\t" + (index + 1) + ": ");
                 System.out.print(jewelry.get(index).getName() + " ");
-                System.out.print(jewelry.get(index).getValueOf() + " ");
+                System.out.print(jewelry.get(index).getBaseValue() + " ");
                 System.out.println(jewelry.get(index).getJewelryName());
             }
         }

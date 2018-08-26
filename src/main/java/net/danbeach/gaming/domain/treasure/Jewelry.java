@@ -20,7 +20,7 @@ public class Jewelry extends Item{
     
     public Jewelry(String name, double value, JewelryTypeEnum jewelryType){
         this.setName(name);
-        this.setValueOf(value);
+        this.setBaseValue(value);
         this.jewelryType = jewelryType;
     }
     

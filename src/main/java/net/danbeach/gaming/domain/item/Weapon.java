@@ -24,7 +24,7 @@ import net.danbeach.gaming.constants.item.WeaponTypeEnum;
  */
 @Entity
 @Table(schema = "GAMER", name = "WEAPON")
-public class Weapon extends GeneralItem implements Comparable<Weapon>, Serializable {
+public class Weapon extends AbstractItem implements Comparable<Weapon>, Serializable {
 
     @Id
     @GeneratedValue
@@ -331,7 +331,7 @@ public class Weapon extends GeneralItem implements Comparable<Weapon>, Serializa
      * Sets the damage a weapon does against small opponents. This CANNOT be a
      * negative value.
      *
-     * @param smallMediumDamage the damage a weapon does against a small
+     * @param smallDamage the damage a weapon does against a small
      * opponent.
      */
     public void setSmallDamage(Integer smallDamage) {

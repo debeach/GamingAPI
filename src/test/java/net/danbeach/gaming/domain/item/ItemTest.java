@@ -10,7 +10,6 @@ import net.danbeach.gaming.constants.GamingColorEnum;
 import net.danbeach.gaming.constants.RogueSkillEnum;
 import net.danbeach.gaming.constants.item.ItemCategoryEnum;
 import net.danbeach.gaming.utility.toon.RogueSkill;
-import net.danbeach.gaming.utility.toon.SavingThrow;
 import org.junit.After;
 import org.junit.AfterClass;
 import static org.junit.Assert.*;
@@ -245,9 +244,9 @@ public class ItemTest {
     @Test
     public void positiveValue_Test() {
         System.out.print("TESTING Positive Value... ");
-        item.setValueOf(1.0);
+        item.setBaseValue(1.0);
         double expResult = 1.0;
-        double result = item.getValueOf();
+        double result = item.getBaseValue();
         assertEquals(expResult, result, 0.0);
         System.out.println("Done");
     }
@@ -255,9 +254,9 @@ public class ItemTest {
     @Test
     public void zeroValue_Test() {
         System.out.print("TESTING Zero Value... ");
-        item.setValueOf(0.0);
+        item.setBaseValue(0.0);
         double expResult = 0.0;
-        double result = item.getValueOf();
+        double result = item.getBaseValue();
         assertEquals(expResult, result, 0.0);
         System.out.println("Done");
     }
