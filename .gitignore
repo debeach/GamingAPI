@@ -12,3 +12,15 @@ target/classes/net/danbeach/gaming/service/*.*
 target/classes/net/danbeach/gaming/utility/*,*
 
 src/main/java/net/danbeach/gaming/NATHANSTEST.java
+target/classes/net/danbeach/gaming/constants/BaseColorEnum.class
+target/classes/net/danbeach/gaming/constants/BaseColorEnum.class
+target/classes/net/danbeach/gaming/constants/ClimateTerrainEnum.class
+target/classes/net/danbeach/gaming/constants/ClimateTerrainLookupTable.class
+target/classes/net/danbeach/gaming/constants/ConditionEnum.class
+target/classes/net/danbeach/gaming/constants/FrequencyEnum.class
+target/classes/net/danbeach/gaming/constants/GamingColorEnum.class
+target/classes/net/danbeach/gaming/constants/ICurrency.class
+target/classes/net/danbeach/gaming/constants/item/ArmorTypeEnum.class
+target/classes/net/danbeach/gaming/constants/item/IItemConstants.class
+*.class
+*.class
