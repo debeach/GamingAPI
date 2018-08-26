@@ -1,5 +1,6 @@
 
 .idea/**
+gaming.iml
 target/**
 target/classes/**
 target/classes/net/danbeach/gaming/constraints/*.*
@@ -10,12 +11,4 @@ target/classes/net/danbeach/gaming/repository/*.*
 target/classes/net/danbeach/gaming/service/*.*
 target/classes/net/danbeach/gaming/utility/*,*
 
-
-target/classes/.netbeans_automatic_build
-target/classes/net/danbeach/gaming/constants/BaseColorEnum.class
-target/classes/net/danbeach/gaming/constants/ClimateTerrainEnum.class
-target/classes/net/danbeach/gaming/constants/BaseColorEnum.class
-target/classes/net/danbeach/gaming/constants/ClimateTerrainEnum.class
-target/classes/net/danbeach/gaming/constants/ClimateTerrainLookupTable.class
-target/classes/net/danbeach/gaming/constants/ConditionEnum.class
 src/main/java/net/danbeach/gaming/NATHANSTEST.java
