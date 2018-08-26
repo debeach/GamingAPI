@@ -18,3 +18,4 @@ target/classes/net/danbeach/gaming/constants/BaseColorEnum.class
 target/classes/net/danbeach/gaming/constants/ClimateTerrainEnum.class
 target/classes/net/danbeach/gaming/constants/ClimateTerrainLookupTable.class
 target/classes/net/danbeach/gaming/constants/ConditionEnum.class
+src/main/java/net/danbeach/gaming/NATHANSTEST.java
